@@ -14,8 +14,15 @@ onchain data, berlin. i read block explorers so you don't have to.
 | [bigmoves](https://github.com/alinaschanz/bigmoves) | large stablecoin, weth and wbtc transfers in the last n blocks, with exchange and bridge labels. `--follow` keeps watching. |
 | [stablepeg](https://github.com/alinaschanz/stablepeg) | are the stablecoins still a dollar? uniswap v3 spot and twap, a curve 3pool swap quote, coingecko next to it. |
 | [ens-lookup](https://github.com/alinaschanz/ens-lookup) | ens names to addresses and back, text records included. pure python, keccak and all. |
+| [netflows](https://github.com/alinaschanz/netflows) | which exchanges gained or lost stablecoins in the last hour. work in progress, the numbers are not quotable yet. |
 
 all of it: python 3.10+, standard library only, public json-rpc endpoints, no api keys.
-if a number in a post looks off, the script that produced it is here.
+if a number in a post looks off, the script that produced it is here. commits are signed.
+
+#### right now
+
+<!-- live:start -->
+- base fee: see [gasweek](https://github.com/alinaschanz/gasweek), refreshed here every night
+<!-- live:end -->
 
 numbers, not calls. not financial advice.
