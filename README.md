@@ -15,9 +15,11 @@ onchain data, berlin. i read block explorers so you don't have to.
 | [stablepeg](https://github.com/alinaschanz/stablepeg) | are the stablecoins still a dollar? uniswap v3 spot and twap, a curve 3pool swap quote, coingecko next to it. |
 | [ens-lookup](https://github.com/alinaschanz/ens-lookup) | ens names to addresses and back, text records included. pure python, keccak and all. |
 | [netflows](https://github.com/alinaschanz/netflows) | which exchanges gained or lost stablecoins in the last hour. work in progress, the numbers are not quotable yet. |
+| [gasweek-js](https://github.com/alinaschanz/gasweek-js) | gasweek for the browser and node: the same pages, interpolation and percentiles in typescript, zero dependencies. |
 
-all of it: python 3.10+, standard library only, public json-rpc endpoints, no api keys.
-if a number in a post looks off, the script that produced it is here. commits are signed.
+all of it: python 3.10+, standard library only, public json-rpc endpoints, no api keys
+(the one typescript twin has no dependencies either). if a number in a post looks off, the
+script that produced it is here. commits are signed.
 
 two pieces small enough to be gists: [keccak-256 in plain python](https://gist.github.com/alinaschanz/d8faf7e1d6dfe129e9094c4c085790e6)
 and [a uniswap v3 price and twap from one pool](https://gist.github.com/alinaschanz/92e7f3dd401362e802ecc7727332707e).
