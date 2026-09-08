@@ -22,10 +22,10 @@ if a number in a post looks off, the script that produced it is here. commits ar
 #### right now
 
 <!-- live:start -->
-- base fee on 2026-09-08: median 0.072 gwei, p90 0.202, cheapest hour 01:00 utc, priciest 17:00 utc
-- last 1 day: medians from 0.072 to 0.072 gwei ([the dataset](https://github.com/alinaschanz/gasweek/blob/main/data/daily.csv))
+- base fee on 2026-09-08: median 0.056 gwei, p90 0.145, cheapest hour 10:00 utc, priciest 15:00 utc
+- last 1 day: medians from 0.056 to 0.056 gwei ([the dataset](https://github.com/alinaschanz/gasweek/blob/main/data/daily.csv))
 - latest note: [0.07 gwei. what an empty mainnet costs](https://alinaschanz.life/notes/2026-09-07-gas-at-0-07-gwei.html) (2026-09-07)
-<sub>refreshed 2026-09-08 05:36 utc by [refresh_readme.py](refresh_readme.py)</sub>
+<sub>refreshed 2026-09-08 05:46 utc by [refresh_readme.py](refresh_readme.py)</sub>
 <!-- live:end -->
 
 numbers, not calls. not financial advice.
