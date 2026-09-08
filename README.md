@@ -19,6 +19,9 @@ onchain data, berlin. i read block explorers so you don't have to.
 all of it: python 3.10+, standard library only, public json-rpc endpoints, no api keys.
 if a number in a post looks off, the script that produced it is here. commits are signed.
 
+two pieces small enough to be gists: [keccak-256 in plain python](https://gist.github.com/alinaschanz/d8faf7e1d6dfe129e9094c4c085790e6)
+and [a uniswap v3 price and twap from one pool](https://gist.github.com/alinaschanz/92e7f3dd401362e802ecc7727332707e).
+
 #### right now
 
 <!-- live:start -->
