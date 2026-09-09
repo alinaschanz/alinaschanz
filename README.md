@@ -27,10 +27,10 @@ and [a uniswap v3 price and twap from one pool](https://gist.github.com/alinasch
 #### right now
 
 <!-- live:start -->
-- base fee on 2026-09-08: median 0.056 gwei, p90 0.145, cheapest hour 10:00 utc, priciest 15:00 utc
-- last 1 day: medians from 0.056 to 0.056 gwei ([the dataset](https://github.com/alinaschanz/gasweek/blob/main/data/daily.csv))
-- latest note: [0.07 gwei. what an empty mainnet costs](https://alinaschanz.life/notes/2026-09-07-gas-at-0-07-gwei.html) (2026-09-07)
-<sub>refreshed 2026-09-08 05:46 utc by [refresh_readme.py](refresh_readme.py)</sub>
+- base fee on 2026-09-09: median 0.066 gwei, p90 0.217, cheapest hour 01:00 utc, priciest 14:00 utc
+- last 2 days: medians from 0.056 to 0.066 gwei ([the dataset](https://github.com/alinaschanz/gasweek/blob/main/data/daily.csv))
+- latest note: [week 37 in numbers: gas by the hour, nine pegs, and $429m that never left](https://alinaschanz.life/notes/2026-09-08-week-37-in-numbers.html) (2026-09-08)
+<sub>refreshed 2026-09-09 00:54 utc by [refresh_readme.py](refresh_readme.py)</sub>
 <!-- live:end -->
 
 numbers, not calls. not financial advice.
