@@ -11,11 +11,14 @@ onchain data, berlin. i read block explorers so you don't have to.
 | --- | --- |
 | [onchain-notes](https://github.com/alinaschanz/onchain-notes) | the numbers i look at before posting anything: prices, base fee, fear & greed, tvl. one card, one screen. |
 | [gasweek](https://github.com/alinaschanz/gasweek) | when is ethereum cheapest? base fee by hour of day over the last week, as a table and an svg, plus a daily dataset that fills itself. |
+| [blobwatch](https://github.com/alinaschanz/blobwatch) | who bought ethereum's blob space in the last ten minutes and what they paid, by rollup. every name comes with a source, or from the chain itself. |
 | [bigmoves](https://github.com/alinaschanz/bigmoves) | large stablecoin, weth and wbtc transfers in the last n blocks, with exchange and bridge labels. `--follow` keeps watching. |
 | [stablepeg](https://github.com/alinaschanz/stablepeg) | are the stablecoins still a dollar? uniswap v3 spot and twap, a curve 3pool swap quote, coingecko next to it. |
+| [lendrates](https://github.com/alinaschanz/lendrates) | what a dollar earns and what borrowing one costs on aave, spark, compound and the sky savings rate, all read at one block. |
 | [ens-lookup](https://github.com/alinaschanz/ens-lookup) | ens names to addresses and back, text records included. pure python, keccak and all. |
 | [netflows](https://github.com/alinaschanz/netflows) | which exchanges gained or lost stablecoins in the last hour. work in progress, the numbers are not quotable yet. |
 | [gasweek-js](https://github.com/alinaschanz/gasweek-js) | gasweek for the browser and node: the same pages, interpolation and percentiles in typescript, zero dependencies. |
+| [rpcprobe](https://github.com/alinaschanz/rpcprobe) | which public rpcs answer today and what they allow: log ranges, archive state, batches, the blob fee. the fallback lists in the other repos come from it. |
 
 all of it: python 3.10+, standard library only, public json-rpc endpoints, no api keys
 (the one typescript twin has no dependencies either). if a number in a post looks off, the
